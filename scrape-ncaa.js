@@ -35,20 +35,34 @@ function getNCAAdata(){
 			var content = page.evaluate(function () {
 				return document.getElementById('teamOA').innerText; // outputs TSV
 			})
-			fs.write(output_path, content, 'w');
+			
+			if (!content) {
+				writeErrorFile()
+			} else {
+				// writeSuccessFile
+				fs.write(output_path, content, 'w');
+			}
+
 			if (counter === years.length) {
-				console.log('counter === years.length, EXITING');
+				console.log('EXITING: counter === years.length');
 				phantom.exit();
 			}
 			else {
+				// re-run the top-level fn
 				setTimeout(getNCAAdata(), 100);
 			}
 		}
 		else {
+			writeErrorFile()
+			phantom.exit();	
+		}
+
+		function writeErrorFile() {
 			output_path = 'output_data/error-'+team+'-'+year+'.tsv';
 			var content = 'Error Status: ' + status;
-			fs.write(output_path, content, 'w');
-			phantom.exit();	
+			console.error(content, ' at: ', output_path)
+			// don't need to write blank files if I delete them!
+			// fs.write(output_path, content, 'w');
 		}
 	})
 }
