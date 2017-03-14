@@ -26,36 +26,44 @@ function getNCAAdata(){
 	var year = years[counter]
 	console.log('getNCAAdata counter, team, year', counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
+	var output_path = 'output_data/'+team+'-'+year+'.tsv';
 	
 	page.open(URI, function (status) {
 		console.log('Page Status', status);
 		counter += 1
 		if (status === 'success') {
-			var output_path = 'output_data/'+team+'-'+year+'.tsv';
 			var content = page.evaluate(function () {
 				return document.getElementById('teamOA').innerText; // outputs TSV
 			})
 			
-			if (!content || counter === years.length) {
-				exitOnError();
+			if (!content) {
+				logError(content)
+			} else {
+				// create a new file
+				fs.write(output_path, content, 'w');
+			}
+
+			if (counter === years.length) {
+				console.log('EXITING: counter === years.length');
+				phantom.exit();
 			}
 			else {
-				console.log('Success, writing: ', output_path);
-				fs.write(output_path, content, 'w');
+				// re-run the top-level fn
 				setTimeout(getNCAAdata(), 100);
 			}
 		}
 		else {
-			// FIXME -- delete this?  Better to save on the CPUs perhaps		
-			output_path = 'output_data/error-'+team+'-'+year+'.tsv';
-			var content = 'Error Status: ' + status;
-			fs.write(output_path, content, 'w');
-			exitOnError();
+			logError(status)
+			phantom.exit();	
 		}
 
-		function exitOnError() {
-			console.error('EXITING on counter # ', counter);
-			phantom.exit();
+		function logError(error) {
+			if (!error) {
+				console.error('No content for', output_path)
+			} else {
+				console.error('Status: ', error)
+				console.error('Error at: ', output_path)
+			}
 		}
 	})
 }
