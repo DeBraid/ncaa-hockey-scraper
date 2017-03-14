@@ -1,6 +1,7 @@
 var page = require('webpage').create();
 var fs = require('fs');
-
+var teams = require('./ncaa-teamnames.js');
+console.log('teams', teams);
 var team = 'wisconsin';
 var year = '2016-2017';
 var output_path = 'output_data/'+team+'-'+year+'.tsv';
