@@ -5,8 +5,8 @@ var teams = require('./ncaa-teamnames.js');
 var counter = 0;
 
 function handle_page(){
-	var team = 'wisconsin';
-	var years = ['2011-2012', '2012-2013', '2013-2014'];
+	var team = 'minnesota-duluth';
+	var years = ['2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017'];
 	var year = years[counter]
 	console.log('handle_page counter', counter);
 	console.log('handle_page team', team);
@@ -16,15 +16,14 @@ function handle_page(){
 	page.open(URI, function (status) {
 		console.log('Page status', status);
 		counter += 1
-		// years.map(function (year) {
 		if (status === 'success') {
 			var output_path = 'output_data/'+team+'-'+year+'.tsv';
 			var content = page.evaluate(function () {
 				return document.getElementById('teamOA').innerText; // outputs TSV
 			})
 			fs.write(output_path, content, 'w');
-			if (counter + 1 === years.length) {
-				console.log('EXITING phantom.exit()');
+			if (counter === years.length) {
+				console.log('counter === years.length, EXITING');
 				phantom.exit();
 			}
 			else {
