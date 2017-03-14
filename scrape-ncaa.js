@@ -26,20 +26,20 @@ function getNCAAdata(){
 	var year = years[counter]
 	console.log('getNCAAdata counter, team, year', counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
+	var output_path = 'output_data/'+team+'-'+year+'.tsv';
 	
 	page.open(URI, function (status) {
 		console.log('Page Status', status);
 		counter += 1
 		if (status === 'success') {
-			var output_path = 'output_data/'+team+'-'+year+'.tsv';
 			var content = page.evaluate(function () {
 				return document.getElementById('teamOA').innerText; // outputs TSV
 			})
 			
 			if (!content) {
-				writeErrorFile()
+				logError(content)
 			} else {
-				// writeSuccessFile
+				// create a new file
 				fs.write(output_path, content, 'w');
 			}
 
@@ -53,16 +53,17 @@ function getNCAAdata(){
 			}
 		}
 		else {
-			writeErrorFile()
+			logError(status)
 			phantom.exit();	
 		}
 
-		function writeErrorFile() {
-			output_path = 'output_data/error-'+team+'-'+year+'.tsv';
-			var content = 'Error Status: ' + status;
-			console.error(content, ' at: ', output_path)
-			// don't need to write blank files if I delete them!
-			// fs.write(output_path, content, 'w');
+		function logError(error) {
+			if (!error) {
+				console.error('No content for', output_path)
+			} else {
+				console.error('Status: ', error)
+				console.error('Error at: ', output_path)
+			}
 		}
 	})
 }
