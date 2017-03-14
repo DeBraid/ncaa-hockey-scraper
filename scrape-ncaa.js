@@ -4,19 +4,27 @@ var fs = require('fs');
 var args = require('system').args;
 var counter = 0;
 
+function setYears (years_arg) {
+	var years;
+	// years_arg is second arg passed via command line
+	if (years_arg === '2001-2017') {
+		 years = [
+			'2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2008-2009', 
+			'2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017'
+		];
+	} 
+	else {
+		// passed exact array of years, like above (useful in case of error)
+		years = years_arg;
+	}
+	return years;
+}
+
 function getNCAAdata(){
 	var team = args[1]; // first arg passed via command line
-	// var years = [
-	// 	'2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2008-2009', 
-	// 	'2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017'
-	// ];
-	var years = [
-		'2013-2014', '2014-2015', '2015-2016', '2016-2017'
-	];
+	var years = setYears(args[2]); // second arg passed via command line
 	var year = years[counter]
-	console.log('getNCAAdata counter', counter);
-	console.log('getNCAAdata team', team);
-	console.log('getNCAAdata year', year);
+	console.log('getNCAAdata counter, team, year', counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
 	
 	page.open(URI, function (status) {
