@@ -1,9 +1,12 @@
 var page = require('webpage').create();
 var fs = require('fs');
-var output_path = 'ncaa_content.tsv';
-var ncaa_url = 'http://www.uscho.com/stats/team/bemidji-state/womens-hockey/2016-2017/';
 
-page.open(ncaa_url, function (status) {
+var team = 'wisconsin';
+var year = '2016-2017';
+var output_path = 'output_data/'+team+'-'+year+'.tsv';
+var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
+
+page.open(URI, function (status) {
   console.log('Page status', status);
   var content = page.evaluate(function () {
   	// outputs a TSV
