@@ -35,20 +35,27 @@ function getNCAAdata(){
 			var content = page.evaluate(function () {
 				return document.getElementById('teamOA').innerText; // outputs TSV
 			})
-			fs.write(output_path, content, 'w');
-			if (counter === years.length) {
-				console.log('counter === years.length, EXITING');
-				phantom.exit();
+			
+			if (!content || counter === years.length) {
+				exitOnError();
 			}
 			else {
+				console.log('Success, writing: ', output_path);
+				fs.write(output_path, content, 'w');
 				setTimeout(getNCAAdata(), 100);
 			}
 		}
 		else {
+			// FIXME -- delete this?  Better to save on the CPUs perhaps		
 			output_path = 'output_data/error-'+team+'-'+year+'.tsv';
 			var content = 'Error Status: ' + status;
 			fs.write(output_path, content, 'w');
-			phantom.exit();	
+			exitOnError();
+		}
+
+		function exitOnError() {
+			console.error('EXITING on counter # ', counter);
+			phantom.exit();
 		}
 	})
 }
