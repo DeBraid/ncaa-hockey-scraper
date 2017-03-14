@@ -4,6 +4,10 @@ A program to scrape NCAA stats.
 
 Run: 
 
+`npm run scrape` 
+
+which is an alias for:
+
 `phantomjs scrape-ncaa.js`
 
 Which will create a TSV in `output_data` 
