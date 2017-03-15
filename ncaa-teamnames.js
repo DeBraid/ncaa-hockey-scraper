@@ -8,14 +8,13 @@ module.exports = {
 		'yale', 'rensselaer', 'harvard', 'brown', 'dartmouth', 'union', 
 		'boston-college', 'northeastern', 'boston-university', 'providence', 
 		'vermont', 'new-hampshire', 'connecticut', 'merrimack', 'maine', 'endicott',
-
-	],
-	remaining: [
 		'morrisville', 'canton', 'stevenson', 'johnson-and-wales', 
 		'becker', 'salem-state', 'lebanon-valley', 'northland', 'plattsburgh', 
-		// 'elmira', 'buffalo-state', 'utica', 'oswego', 'potsdam', 'william-smith', 
-		// 'neumann', 'chatham', 'cortland', 'gutsavus-adolphus', 'augsburg', 'concordia-mn', 
-		// 'st-thomas', 'hamline', 'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
+	],
+	remaining: [
+		'elmira', 'buffalo-state', 'utica', 'oswego', 'potsdam', 'william-smith', 
+		'neumann', 'chatham', 'cortland', 'gutsavus-adolphus', 'augsburg', 'concordia-mn', 
+		'st-thomas', 'hamline', 'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
 		// 'st-bendict', 'adrian', 'lake-forest', 'st-scholastica', 'concordia-wi', 
 		// 'marian', 'st-norbert', 'finlandia', 'norwich', 'st-anselm', 'manhattanville', 
 		// 'holy-cross', 'massachusetts-boston', 'franklin-pierce', 'university-of-new-england', 
