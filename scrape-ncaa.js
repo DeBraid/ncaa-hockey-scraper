@@ -32,6 +32,11 @@ function setTeam (specified_team) {
 function getNCAAdata(){
 	var team = setTeam(args[1]); // first arg passed via command line
 	var year = setYear(args[2]); // second arg passed via command line
+	if (!team || !year) {
+		var err = 'Error in either Team: '+team+', or Year: '+year;
+		logError(err);
+		phantom.exit();	
+	}
 	console.log('getNCAAdata year_counter, team, year', year_counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
 	var output_path = 'output_data/'+team+'-'+year+'.tsv';
