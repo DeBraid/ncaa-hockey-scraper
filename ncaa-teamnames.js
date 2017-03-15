@@ -14,7 +14,8 @@ module.exports = {
 		'neumann', 'chatham', 'cortland', 'augsburg', 'concordia-mn', 
 	],
 	remaining: [
-		'gustavus-adolphus','st-thomas', 'hamline', 'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
+		'gustavus-adolphus','st-thomas', 'hamline', 
+		// 'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
 		// 'st-bendict', 'adrian', 'lake-forest', 'st-scholastica', 'concordia-wi', 
 		// 'marian', 'st-norbert', 'finlandia', 'norwich', 'st-anselm', 'manhattanville', 
 		// 'holy-cross', 'massachusetts-boston', 'franklin-pierce', 'university-of-new-england', 
