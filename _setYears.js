@@ -7,12 +7,13 @@ module.exports = function setYear (years_arg) {
 	// years_arg is second arg passed via command line
 	// default is the whole range, can omit arg and get 01-17
 	if (!years_arg || years_arg === '2001-2017') {
-		return default_years;
+		years = default_years;
 	} 
 	else {
 		// passed as a specific string (useful in case of error)
 		var range = years_arg.split('-');
 		if (Math.abs(range[0] - range[1]) === 1) {
+			years = []; 
 			years.push(years_arg);
 		} else {
 			var end = Math.abs(range[0] - 2001);
@@ -21,5 +22,5 @@ module.exports = function setYear (years_arg) {
 		}
 		return years
 	}
-	return default_years;
+	return years;
 }
