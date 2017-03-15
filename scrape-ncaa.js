@@ -23,24 +23,16 @@ function setYear (years_arg) {
 }
 
 function setTeam (specified_team) {
-	// var team;
-	// // teams_arg is second arg passed via command line
-	// if (teams_arg) {
-	// 	team = teams_arg
-	// } 
-	// else {
-	// 	team = teams[team_counter];
-	// }
-	// return team;
-	return specified_team ? specified_team : teams[team_counter];
+	// specified_team is second arg passed via command line
+	// if empty string, it will use teams from constants
+	// if string is specified, will use that team
+	return specified_team.length ? specified_team : teams[team_counter];
 }
 
 function getNCAAdata(){
-	// var team = args[1]; // first arg passed via command line
-	var teams = setTeam(args[1]); // first arg passed via command line
+	var team = setTeam(args[1]); // first arg passed via command line
 	var year = setYear(args[2]); // second arg passed via command line
-	// var year = years[counter]
-	console.log('getNCAAdata counter, team, year', counter, team, year);
+	console.log('getNCAAdata year_counter, team, year', year_counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
 	var output_path = 'output_data/'+team+'-'+year+'.tsv';
 	
@@ -66,9 +58,9 @@ function getNCAAdata(){
 				if (team_counter > teams.length) {
 					phantom.exit();
 				} 
-				// re-run the top-level fn
 			}
-
+			
+			// re-run the top-level fn
 			setTimeout(getNCAAdata(), 100);
 		}
 		else {
@@ -87,6 +79,6 @@ function getNCAAdata(){
 	})
 }
 
-if (counter === 0) {
+if (team_counter === 0 && year_counter === 0) {
 	getNCAAdata()
 }
