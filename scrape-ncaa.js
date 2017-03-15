@@ -1,26 +1,12 @@
 var page = require('webpage').create();
 var fs = require('fs');
 var teams = require('./ncaa-teamnames.js').remaining;
+var _setYears = require('./_setYears.js');
 var args = require('system').args;
+
+var years = _setYears(args[2]) // second arg passed via command line
 var year_counter = 0;
 var team_counter = 0;
-
-function setYear (years_arg) {
-	var year;
-	// years_arg is second arg passed via command line
-	if (years_arg === '2001-2017') {
-		 years = [
-		  '2016-2017', '2015-2016', '2014-2015', '2013-2014', '2012-2013', '2011-2012', '2010-2011',
-		  '2008-2009', '2006-2007', '2005-2006', '2004-2005', '2003-2004', '2002-2003', '2001-2002'
-		]
-		year = years[year_counter];
-	} 
-	else {
-		// passed as a specific string (useful in case of error)
-		year = years_arg;
-	}
-	return year;
-}
 
 function setTeam (specified_team) {
 	// specified_team is second arg passed via command line
@@ -30,8 +16,8 @@ function setTeam (specified_team) {
 }
 
 function getNCAAdata(){
-	var team = setTeam(args[1]); // first arg passed via command line
-	var year = setYear(args[2]); // second arg passed via command line
+	var team = setTeam(args[1]); // first arg passed via command line	
+	var year = years[year_counter];
 	if (!team || !year) {
 		var err = 'Error in either Team: '+team+', or Year: '+year;
 		logError(err);
