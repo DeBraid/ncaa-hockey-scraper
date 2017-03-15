@@ -53,7 +53,8 @@ function getNCAAdata(){
 			if (!content) {
 				logError(content)
 				// if content is null, then move onto next team?
-				// team_counter += 1; 
+				year_counter += 0; 
+				team_counter += 1; 
 			} else {
 				// create a new file
 				fs.write(output_path, content, 'w');
