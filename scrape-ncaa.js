@@ -57,7 +57,7 @@ function getNCAAdata(){
 				team_counter += 1;
 				if (team_counter > teams.length) {
 					phantom.exit();
-				} 
+				}
 			}
 			
 			// re-run the top-level fn
