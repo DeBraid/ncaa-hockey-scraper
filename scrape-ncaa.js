@@ -53,22 +53,12 @@ function getNCAAdata(){
 			if (!content) {
 				logError(content)
 				// if content is null, then move onto next team?
-				year_counter += 0; 
-				team_counter += 1; 
+				skipToNextTeamOrExit(content)
 			} else {
 				// create a new file
 				fs.write(output_path, content, 'w');
 			}
-
-			if (year_counter === years.length) {
-				console.log('EXITING: counter === years.length');
-				year_counter = 0;
-				team_counter += 1;
-				if (team_counter > teams.length) {
-					phantom.exit();
-				}
-			}
-			
+			skipToNextTeamOrExit()
 			// re-run the top-level fn
 			setTimeout(getNCAAdata(), 100);
 		}
@@ -85,6 +75,18 @@ function getNCAAdata(){
 				console.error('Error at: ', output_path)
 			}
 		}
+
+		function skipToNextTeamOrExit(content) {
+		 	if (content === null || year_counter === years.length) {
+				console.log('skipToNextTeam: content null');
+				year_counter = 0;
+				team_counter += 1;
+				if (team_counter > teams.length) {
+					console.log('Exit, no more teams.');
+					phantom.exit();
+				}
+			}
+		 } 
 	})
 }
 
