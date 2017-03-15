@@ -21,9 +21,9 @@ function getNCAAdata(){
 	console.log('getNCAAdata year_counter, team, year', year_counter, team, year);
 	var URI = 'http://www.uscho.com/stats/team/'+team+'/womens-hockey/'+year+'/';
 	var output_path = 'output_data/'+team+'-'+year+'.tsv';
-	
+	console.log('Attemping to Open Page: ', URI);
 	page.open(URI, function (status) {
-		console.log('Page Status', status);
+		console.log('Page is Open, status', status);
 		year_counter += 1
 		if (status === 'success' || team_counter === teams.length) {
 			var content = page.evaluate(function () {
