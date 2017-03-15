@@ -46,40 +46,28 @@ function getNCAAdata(){
 			logError(status)
 			phantom.exit();	
 		}
+	})
+	
+	function logError(error) {
+		if (!error) {
+			console.error('No content for', output_path)
+		} else {
+			console.error('Status: ', error)
+			console.error('Error at: ', output_path)
+		}
+	}
 
-		function logError(error) {
-			if (!error) {
-				console.error('No content for', output_path)
-			} else {
-				console.error('Status: ', error)
-				console.error('Error at: ', output_path)
+	function skipToNextTeamOrExit(content) {
+	 	if (content === null || year_counter === years.length) {
+			console.log('skipToNextTeam: content null');
+			year_counter = 0;
+			team_counter += 1;
+			if (team_counter === teams.length) {
+				console.log('Exit, no more teams.');
+				phantom.exit();
 			}
 		}
-
-		function skipToNextTeamOrExit(content) {
-		 	if (content === null || year_counter === years.length) {
-				console.log('skipToNextTeam: content null');
-				year_counter = 0;
-				team_counter += 1;
-				if (team_counter === teams.length) {
-					console.log('Exit, no more teams.');
-					phantom.exit();
-				}
-			}
-		 }
-
-		 function setTeam (specified_team) {
-			// OPTIONAL: specified_team can be passed via CLI
-			// ie. npm run scrape 'ohio-state'
-			// if empty string, it will use teams array from constants
-			// ie. npm run scrape ''
-			if (specified_team.length) {
-				teams = [];
-				teams.push(specified_team);
-			}
-			return teams[team_counter];
-		} 
-	})
+	}
 }
 
 if (team_counter === 0 && year_counter === 0) {

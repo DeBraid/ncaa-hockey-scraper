@@ -6,13 +6,19 @@ module.exports = function setYear (years_arg) {
 	// years_arg is second arg passed via command line
 	// default is the whole range, can omit arg and get 01-17
 	if (!years_arg || years_arg === '2001-2017') {
-		return years;
+		return;
 	} 
 	else {
 		// passed as a specific string (useful in case of error)
 		var range = years_arg.split('-');
-		var soonest = Math.abs(range[0] - 2001);
-		var latest = Math.abs(range[1] - 2017);
-		return years.slice(latest, years.length - soonest)
+		if (Math.abs(range[0] - range[1]) === 1) {
+			years = [];
+			years.push(years_arg);
+		} else {
+			var soonest = Math.abs(range[0] - 2001);
+			var latest = Math.abs(range[1] - 2017);
+			years.slice(latest, years.length - soonest)
+		}
 	}
+	return years;
 }
