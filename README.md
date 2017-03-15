@@ -4,11 +4,21 @@ A program to scrape NCAA stats.
 
 ### How it works: 
 
-Run `npm run scrape TEAM_NAME`.
+Run `npm run scrape TEAM_NAME YEARS_RANGE`.
 
 ie. 
 
+> `npm run scrape ''`
+
+* Passing empty string to scrape will default to using the team
+
 > `npm run scrape 'ohio-state'`
+
+Which omits the YEARS_RANGE options (default is 2001-2017).
+
+> `npm run scrape 'ohio-state' '2013-2017'`
+
+Is useful when errors occur.
 
 ### Notes 
 
