@@ -10,7 +10,7 @@ console.log('years', years);
 
 function setYears (years_arg) {
 	console.log('years_arg', years_arg);
-	var yrs = [],
+	var yrs = [];
 	var year = '';
 	// years_arg is second arg passed via command line
 	if (!years_arg) {

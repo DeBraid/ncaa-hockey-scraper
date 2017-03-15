@@ -13,6 +13,7 @@ function setYear (years_arg) {
 			'2001-2002', '2002-2003', '2003-2004', '2004-2005', '2005-2006', '2006-2007', '2008-2009', 
 			'2010-2011', '2011-2012', '2012-2013', '2013-2014', '2014-2015', '2015-2016', '2016-2017'
 		];
+		years.reverse()
 		year = years[year_counter];
 	} 
 	else {
@@ -51,6 +52,8 @@ function getNCAAdata(){
 			
 			if (!content) {
 				logError(content)
+				// if content is null, then move onto next team?
+				// team_counter += 1; 
 			} else {
 				// create a new file
 				fs.write(output_path, content, 'w');
