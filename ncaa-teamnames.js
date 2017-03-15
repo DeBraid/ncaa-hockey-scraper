@@ -12,7 +12,8 @@ module.exports = {
 		'becker', 'salem-state', 'lebanon-valley', 'northland', 'plattsburgh', 
 	],
 	remaining: [
-		'elmira', 'buffalo-state', 'utica', 'oswego', 'potsdam', 'william-smith', 
+		// 'buffalo-state', 'utica', 
+		'oswego', 'potsdam', 'william-smith', 'elmira',
 		'neumann', 'chatham', 'cortland', 'gutsavus-adolphus', 'augsburg', 'concordia-mn', 
 		'st-thomas', 'hamline', 'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
 		// 'st-bendict', 'adrian', 'lake-forest', 'st-scholastica', 'concordia-wi', 
