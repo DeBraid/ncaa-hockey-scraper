@@ -2,9 +2,10 @@
   "name": "ncaa-womens-hockey",
   "version": "1.0.0",
   "description": "A web scrapper for NCAA Womens Hockey Stats",
-  "main": "index.js",
+  "main": "scrape-ncaa.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run scrape",
     "scrape": "phantomjs scrape-ncaa.js"
   },
   "keywords": [
