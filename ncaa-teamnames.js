@@ -21,8 +21,10 @@ module.exports = {
 		'holy-cross', 'new-england-college', 'nichols', 'middlebury', 'connecticut-college', 'hamilton', 
 		'trinity', 'amherst', 'bowdoin', 'williams', 'wesleyan', 'colby', 
 		'wisconsin-river-falls', 'wisconsin-eau-claire', 'wisconsin-stevens-point', 
+		'wisconsin-superior', 
 	],
 	remaining: [
-		'wisconsin-superior', 'wayne-state', 'st-cloud', 'niagara', 'mit', 'concordia'
+		// Do these teams exist?
+		// 'wayne-state', 'st-cloud', 'niagara', 'mit', 'concordia'
 	]
 }
