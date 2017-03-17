@@ -23,7 +23,7 @@ function getNCAAdata(){
 	var output_path = 'output_data/'+team+'-'+year+'.tsv';
 	console.log('Attemping to Open Page: ', URI);
 	page.open(URI, function (status) {
-		console.log('Page is Open, status', status);
+		console.log('Page is Open, status', status, ' at ', new Date());
 		year_counter += 1
 		if (status === 'success' || team_counter === teams.length) {
 			var content = page.evaluate(function () {
@@ -50,10 +50,10 @@ function getNCAAdata(){
 	
 	function logError(error) {
 		if (!error) {
-			console.error('No content for', output_path)
+			console.error('No content for', output_path, ' at ', new Date())
 		} else {
-			console.error('Status: ', error)
-			console.error('Error at: ', output_path)
+			console.error('Status: ', error, ' at ', new Date())
+			console.error('Error at: ', output_path, ' at ', new Date())
 		}
 	}
 
