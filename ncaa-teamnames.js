@@ -16,10 +16,11 @@ module.exports = {
 		'st-olaf', 'bethel', 'st-catherine', 'st-marys', 
 		'st-benedict', 'adrian', 'lake-forest', 'st-scholastica', 'concordia-wi', 
 		'marian', 'st-norbert', 'finlandia', 'norwich', 'st-anselm',
+		'manhattanville', 'massachusetts-boston', 'franklin-pierce', 'university-of-new-england', 
+		'castleton', 'salve-regina', 'plymouth-state', 'southern-maine', 'st-michaels', 
+		// 'holy-cross', 
 	],
 	remaining: [
-		 'manhattanville', 'holy-cross', 'massachusetts-boston', 'franklin-pierce', 'university-of-new-england', 
-		// 'castleton', 'salve-regina', 'plymouth-state', 'southern-maine', 'st-michaels', 
 		// 'new-england-college', 'nichols', 'middlebury', 'connecticut-college', 'hamilton', 
 		// 'trinity', 'amherst', 'bowdoin', 'williams', 'wesleyan', 'colby', 'wisconsin-river-falls', 
 		// 'wisconsin-eau-claire', 'wisconsin-stevens-point', 'wisconsin-superior', 'wayne-state', 
