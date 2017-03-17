@@ -19,11 +19,10 @@ module.exports = {
 		'manhattanville', 'massachusetts-boston', 'franklin-pierce', 'university-of-new-england', 
 		'castleton', 'salve-regina', 'plymouth-state', 'southern-maine', 'st-michaels', 
 		'holy-cross', 'new-england-college', 'nichols', 'middlebury', 'connecticut-college', 'hamilton', 
-		'trinity', 'amherst', 'bowdoin', 'williams', 
+		'trinity', 'amherst', 'bowdoin', 'williams', 'wesleyan', 'colby', 
+		'wisconsin-river-falls', 'wisconsin-eau-claire', 'wisconsin-stevens-point', 
 	],
 	remaining: [
-		'wesleyan', 'colby', 'wisconsin-river-falls', 
-		'wisconsin-eau-claire', 'wisconsin-stevens-point', 'wisconsin-superior', 'wayne-state', 
-		'st-cloud', 'niagara', 'mit', 'concordia'
+		'wisconsin-superior', 'wayne-state', 'st-cloud', 'niagara', 'mit', 'concordia'
 	]
 }
