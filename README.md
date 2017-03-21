@@ -4,21 +4,27 @@ A program to scrape NCAA stats.
 
 ### How it works: 
 
-Run `npm run scrape TEAM_NAME YEARS_RANGE`.
+Run `npm run start TEAM_NAME YEARS_RANGE`.
+
+under the hood, this runs: 
+
+* `phantomjs scrape-ncaa.js >> logs/log-file.txt`
 
 ie. 
 
-> `npm run scrape ''`
+> `npm run start '' '2001-2017'`
 
-* Passing empty string to scrape will default to using the team
+* Passing empty string to scrape will default to using the teams array (`ncaa-teamnames.js`).
 
-> `npm run scrape 'ohio-state'`
+#### Use Specific Team or Date Range
 
-Which omits the YEARS_RANGE options (default is 2001-2017).
+> `npm run start 'ohio-state' '2010-2015'`
 
-> `npm run scrape 'ohio-state' '2013-2017'`
+Above is useful when errors occur.
 
-Is useful when errors occur.
+##  Logs 
+
+Success and Errors will be captured in `logs/log-file.txt`  (see `package.json` to change dir / filename)
 
 ### Notes 
 
