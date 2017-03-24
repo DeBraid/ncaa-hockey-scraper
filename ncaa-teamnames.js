@@ -1,5 +1,7 @@
 module.exports = {	
 	done: [ 
+	],
+	remaining: [
 		'minnesota', 'wisconsin', 'minnesota-duluth', 'north-dakota', 
 		'ohio-state', 'st-cloud-state', 'bemidji-state', 
 		'minnesota-state', 'robert-morris', 'syracuse', 'mercyhurst', 
@@ -22,8 +24,6 @@ module.exports = {
 		'trinity', 'amherst', 'bowdoin', 'williams', 'wesleyan', 'colby', 
 		'wisconsin-river-falls', 'wisconsin-eau-claire', 'wisconsin-stevens-point', 
 		'wisconsin-superior', 
-	],
-	remaining: [
 		// Do these teams exist?
 		// 'wayne-state', 'st-cloud', 'niagara', 'mit', 'concordia'
 	]
