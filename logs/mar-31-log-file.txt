@@ -1,0 +1,50 @@
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Fri Mar 31 2017 18:05:37 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 becker 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/becker/womens-hockey/2016-2017/
+Page is Open, status success  at  Fri Mar 31 2017 18:06:14 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 becker 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/becker/womens-hockey/2015-2016/
+Page is Open, status success  at  Fri Mar 31 2017 18:06:19 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 becker 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/becker/womens-hockey/2014-2015/
+Page is Open, status success  at  Fri Mar 31 2017 18:06:27 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/becker-2014-2015.tsv  at  Fri Mar 31 2017 18:06:27 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2001-2002  at  Fri Mar 31 2017 18:30:43 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 north-dakota 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/north-dakota/womens-hockey/2001-2002/
+Page is Open, status success  at  Fri Mar 31 2017 18:30:53 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/north-dakota-2001-2002.tsv  at  Fri Mar 31 2017 18:30:53 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2016-2017  at  Fri Mar 31 2017 18:33:43 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 lindenwood 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/lindenwood/womens-hockey/2016-2017/
+Page is Open, status success  at  Fri Mar 31 2017 18:34:10 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2015-2016  at  Fri Mar 31 2017 18:34:20 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 lindenwood 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/lindenwood/womens-hockey/2015-2016/
+Page is Open, status success  at  Fri Mar 31 2017 18:34:30 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2014-2015  at  Fri Mar 31 2017 18:34:40 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 lindenwood 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/lindenwood/womens-hockey/2014-2015/
+Page is Open, status success  at  Fri Mar 31 2017 18:35:00 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
