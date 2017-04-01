@@ -48,3 +48,723 @@ Attemping to Open Page:  http://www.uscho.com/stats/team/lindenwood/womens-hocke
 Page is Open, status success  at  Fri Mar 31 2017 18:35:00 GMT-0400 (EDT)
 skipToNextTeam: content null
 Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:15:53 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 penn-state 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:04 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 penn-state 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:08 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 penn-state 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:13 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 penn-state 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:45 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 penn-state 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:50 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 penn-state 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/penn-state/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:16:56 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/penn-state-2011-2012.tsv  at  Sat Apr 01 2017 08:16:56 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:20:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 rit 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:21:30 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 rit 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:21:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 rit 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:21:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 rit 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:13 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 rit 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:19 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 rit 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:24 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 rit 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 rit 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:33 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 rit 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:38 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 rit 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:44 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 rit 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:48 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 rit 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:54 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 rit 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 08:22:59 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 rit 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 08:23:31 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 14 rit 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 08:23:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 15 rit 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/rit/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 08:23:41 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:23:54 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wisconsin 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:24:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 wisconsin 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:24:46 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 wisconsin 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:24:51 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 wisconsin 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:23 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 wisconsin 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 wisconsin 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:34 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 wisconsin 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:40 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 wisconsin 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:46 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 wisconsin 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:52 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 wisconsin 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 08:25:56 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 wisconsin 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 08:26:00 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 wisconsin 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 08:26:05 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 wisconsin 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 08:26:09 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 wisconsin 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 08:26:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 14 wisconsin 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 08:27:40 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 15 wisconsin 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 08:27:45 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:31:02 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 minnesota-duluth 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:32:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 minnesota-duluth 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:32:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 minnesota-duluth 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:32:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 minnesota-duluth 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:13 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 minnesota-duluth 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:17 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 minnesota-duluth 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:21 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 minnesota-duluth 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:27 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 minnesota-duluth 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:31 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 minnesota-duluth 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 minnesota-duluth 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 minnesota-duluth 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:45 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 minnesota-duluth 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:49 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 minnesota-duluth 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 08:33:55 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 minnesota-duluth 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 08:34:27 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 14 minnesota-duluth 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 08:34:33 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 15 minnesota-duluth 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-duluth/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 08:34:38 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:40:54 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 minnesota-state 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:41:43 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 minnesota-state 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:41:48 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 minnesota-state 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:41:52 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 minnesota-state 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:25 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 minnesota-state 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 minnesota-state 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:33 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 minnesota-state 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:39 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 minnesota-state 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:43 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 minnesota-state 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:52 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 minnesota-state 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 08:42:56 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 minnesota-state 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 08:43:00 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 minnesota-state 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 08:43:11 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 minnesota-state 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 08:43:18 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 minnesota-state 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 08:43:50 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 14 minnesota-state 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/minnesota-state/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 08:43:58 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/minnesota-state-2002-2003.tsv  at  Sat Apr 01 2017 08:43:58 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:46:42 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 robert-morris 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:46:52 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 robert-morris 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:46:57 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 robert-morris 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:02 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 robert-morris 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 robert-morris 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:40 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 robert-morris 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:45 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 robert-morris 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:50 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 robert-morris 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:54 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 robert-morris 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 08:47:59 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 robert-morris 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 08:48:04 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 robert-morris 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 08:48:10 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 robert-morris 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 08:48:15 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 robert-morris 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/robert-morris/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 08:48:18 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/robert-morris-2004-2005.tsv  at  Sat Apr 01 2017 08:48:18 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2010-2011  at  Sat Apr 01 2017 08:48:20 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 vermont 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/vermont/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 08:48:41 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:50:06 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 merrimack 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/merrimack/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:50:15 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 merrimack 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/merrimack/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:50:19 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 merrimack 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/merrimack/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:50:23 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/merrimack-2014-2015.tsv  at  Sat Apr 01 2017 08:50:23 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 08:56:48 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 endicott 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/endicott/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 08:57:14 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 endicott 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/endicott/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 08:57:18 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 endicott 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/endicott/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 08:57:22 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/endicott-2014-2015.tsv  at  Sat Apr 01 2017 08:57:22 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:00:17 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 johnson-and-wales 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/johnson-and-wales/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:00:28 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 johnson-and-wales 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/johnson-and-wales/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 09:00:33 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 johnson-and-wales 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/johnson-and-wales/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 09:00:38 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/johnson-and-wales-2014-2015.tsv  at  Sat Apr 01 2017 09:00:38 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:13:27 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 potsdam 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:13:55 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 potsdam 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:05 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 potsdam 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:10 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 potsdam 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:42 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 potsdam 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:48 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 potsdam 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:52 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 potsdam 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 09:14:58 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 potsdam 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 09:15:03 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 potsdam 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 09:15:07 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 potsdam 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/potsdam/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:15:12 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/potsdam-2007-2008.tsv  at  Sat Apr 01 2017 09:15:12 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:19:16 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 william-smith 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/william-smith/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:19:26 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 william-smith 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/william-smith/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 09:19:31 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 william-smith 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/william-smith/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 09:19:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 william-smith 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/william-smith/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 09:20:06 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/william-smith-2013-2014.tsv  at  Sat Apr 01 2017 09:20:06 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:24:53 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 st-benedict 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:03 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 st-benedict 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:08 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 st-benedict 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:13 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 st-benedict 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:46 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 st-benedict 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:50 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 st-benedict 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 09:25:55 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 st-benedict 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:01 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 st-benedict 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:06 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 st-benedict 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:12 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 st-benedict 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:19 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 st-benedict 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 st-benedict 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 st-benedict 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 09:26:45 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 st-benedict 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 09:27:17 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 14 st-benedict 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 09:27:23 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 15 st-benedict 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/st-benedict/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 09:27:27 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:29:14 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 massachusetts-boston 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/massachusetts-boston/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:29:41 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/massachusetts-boston-2016-2017.tsv  at  Sat Apr 01 2017 09:29:41 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:38:09 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wayne-state 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2016-2017/
+TypeError: null is not an object (evaluating 'i.shift')
+
+  http://connect.facebook.net/en_US/all.js#xfbml=1&appId=347537111988294:59 in k
+Page is Open, status success  at  Sat Apr 01 2017 09:38:25 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/wayne-state-2016-2017.tsv  at  Sat Apr 01 2017 09:38:25 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2007-2008  at  Sat Apr 01 2017 09:42:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wisconsin-superior 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin-superior/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:42:46 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2007-2008  at  Sat Apr 01 2017 09:43:06 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wisconsin-stevens-point 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin-stevens-point/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:43:39 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2007-2008  at  Sat Apr 01 2017 09:45:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wisconsin-eau-claire 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/wisconsin-eau-claire/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:45:45 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2007-2008  at  Sat Apr 01 2017 09:47:31 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 colby 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/colby/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:48:01 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:48:58 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 niagara 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 09:49:32 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/niagara-2016-2017.tsv  at  Sat Apr 01 2017 09:49:32 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:51:20 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 niagara 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 09:52:02 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/niagara-2012-2013.tsv  at  Sat Apr 01 2017 09:52:02 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:52:51 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 niagara 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2011-2012/
+_setYears Years: 2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 09:53:10 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 mit 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:24 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 niagara 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:32 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 niagara 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:36 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 niagara 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:41 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 mit 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:48 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 mit 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 09:53:56 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 mit 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:08 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 niagara 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:15 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 niagara 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:20 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 niagara 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:27 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 mit 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 niagara 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:33 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 niagara 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:34 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 mit 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:44 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 niagara 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:53 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 niagara 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/niagara/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:56 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 mit 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 09:54:59 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Page is Open, status success  at  Sat Apr 01 2017 09:55:02 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 mit 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/mit/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 09:55:09 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 10:01:04 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 wayne-state 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 10:01:13 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 wayne-state 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 10:01:18 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 wayne-state 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 10:01:23 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 wayne-state 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 10:01:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 wayne-state 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:01 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 wayne-state 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:07 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 wayne-state 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:12 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 wayne-state 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:16 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 wayne-state 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:21 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 wayne-state 2001-2002
+Attemping to Open Page:  http://www.uscho.com/stats/team/wayne-state/womens-hockey/2001-2002/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:25 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 10:02:32 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 massachusetts-boston 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/massachusetts-boston/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 10:02:40 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/massachusetts-boston-2016-2017.tsv  at  Sat Apr 01 2017 10:02:40 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+Years: default_years 2016-2017,2015-2016,2014-2015,2013-2014,2012-2013,2011-2012,2010-2011,2009-2010,2008-2009,2007-2008,2006-2007,2005-2006,2004-2005,2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 10:03:43 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 umass-boston 2016-2017
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2016-2017/
+Page is Open, status success  at  Sat Apr 01 2017 10:04:11 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 umass-boston 2015-2016
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2015-2016/
+Page is Open, status success  at  Sat Apr 01 2017 10:04:16 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 2 umass-boston 2014-2015
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2014-2015/
+Page is Open, status success  at  Sat Apr 01 2017 10:04:22 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 3 umass-boston 2013-2014
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2013-2014/
+Page is Open, status success  at  Sat Apr 01 2017 10:04:54 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 4 umass-boston 2012-2013
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2012-2013/
+Page is Open, status success  at  Sat Apr 01 2017 10:04:58 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 5 umass-boston 2011-2012
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2011-2012/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:03 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 6 umass-boston 2010-2011
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2010-2011/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:07 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 7 umass-boston 2009-2010
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2009-2010/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:16 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 8 umass-boston 2008-2009
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2008-2009/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:20 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 9 umass-boston 2007-2008
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2007-2008/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:24 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 10 umass-boston 2006-2007
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2006-2007/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:29 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 11 umass-boston 2005-2006
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2005-2006/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 12 umass-boston 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 10:05:35 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 13 umass-boston 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2003-2004/
+Page is Open, status fail  at  Sat Apr 01 2017 10:05:35 GMT-0400 (EDT)
+Status:  fail  at  Sat Apr 01 2017 10:05:35 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:55 in logError
+Error at:  output_data/umass-boston-2003-2004.tsv  at  Sat Apr 01 2017 10:05:35 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:56 in logError
+_setYears Years: 2003-2004,2002-2003,2001-2002  at  Sat Apr 01 2017 10:11:42 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 umass-boston 2003-2004
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2003-2004/
+Page is Open, status success  at  Sat Apr 01 2017 10:12:04 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 1 umass-boston 2002-2003
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2002-2003/
+Page is Open, status success  at  Sat Apr 01 2017 10:12:18 GMT-0400 (EDT)
+TypeError: null is not an object (evaluating 'document.getElementById('teamOA').innerText')
+
+  undefined:2
+  :3
+No content for output_data/umass-boston-2002-2003.tsv  at  Sat Apr 01 2017 10:12:18 GMT-0400 (EDT)
+
+  phantomjs://code/scrape-ncaa.js:53 in logError
+skipToNextTeam: content null
+Exit, no more teams.
+_setYears Years: 2004-2005  at  Sat Apr 01 2017 10:12:59 GMT-0400 (EDT)
+getNCAAdata year_counter, team, year 0 umass-boston 2004-2005
+Attemping to Open Page:  http://www.uscho.com/stats/team/umass-boston/womens-hockey/2004-2005/
+Page is Open, status success  at  Sat Apr 01 2017 10:13:32 GMT-0400 (EDT)
+skipToNextTeam: content null
+Exit, no more teams.
